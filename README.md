@@ -17,6 +17,18 @@
 ![TestCases.jpg](images)
 ![Terminal.jpg](images)
 
+**TA Response**
+Hello! I see your implementation passed the postive integer test but failed the empty and negative tests. I think the bug is at line 6 in your min method. The method initially set the minimun to 0. However, it did not consider the cases when a the input list does not contain 0 or 0 is not the minimum. It would be helpful to initialize the result to the first element of the input list and check if the input list is empty! An example of this would be:
+````
+if(nums.size() == 0)
+  throw new IllegalArgumentException();
+int result = nums.get(0);
+```` 
+I hope this was helpful and have a nice day!
 
-
+**Student Response**
+Thank you so much! The suggestions were very helpful! Here is a screenshot of my fixed code!
+![fixed.jpg](images)
+By fixing this bug, all the test cases passed!
+![Terminalfixed.jpg](images)
 
