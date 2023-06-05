@@ -11,11 +11,11 @@
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
 *This is a screenshot of the method implementation and bash script. The bash script is named `grade1.sh` and the implementation is `findMin.java`.*
-![findMinAndBash.jpg](images)
+![Image](findMinAndBash.jpg)
 
 *The bash script `grade1.sh` is designed to determine which type of environment for the correct path and compile the Junit test and run it on my implementation. Here is a screen shot of the test cases and the terminal when I run the tests.*
-![TestCases.jpg](images)
-![Terminal.jpg](images)
+![Image](TestCases.jpg)
+![Image](Terminal.jpg)
 
 **TA Response**
 Hello! I see your implementation passed the postive integer test but failed the empty and negative tests. I think the bug is at line 6 in your min method. The method initially set the minimun to 0. However, it did not consider the cases when a the input list does not contain 0 or 0 is not the minimum. It would be helpful to initialize the result to the first element of the input list and check if the input list is empty! An example of this would be:
@@ -28,7 +28,10 @@ I hope this was helpful and have a nice day!
 
 **Student Response**
 Thank you so much! The suggestions were very helpful! Here is a screenshot of my fixed code!
-![fixed.jpg](images)
+![Image](fixed.jpg)
 By fixing this bug, all the test cases passed!
-![Terminalfixed.jpg](images)
+![Image](Terminalfixed.jpg)
+
+**Part 2 - Reflection**
+I learned how to write bash scripts which was amazing! This skill would be useful in so many ways for my future projects. I would save tremandous amount of time by creating a bash script instead of writing in terminal!
 
