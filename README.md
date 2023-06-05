@@ -10,6 +10,13 @@
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
-*Here is a screenshot of the failed test and all my files. The tests are in `TransformerTest.java` and the implementation is in `Transformer.java`.*
-![bug.png](images/bug.png)
-*When I run `bash test.sh`, which basically just compiles with JUnit and runs the test, I get the following output:*
+*This is a screenshot of the method implementation and bash script. The bash script is named `grade1.sh` and the implementation is `findMin.java`.*
+![findMinAndBash.jpg](images)
+
+*The bash script `grade1.sh` is designed to determine which type of environment for the correct path and compile the Junit test and run it on my implementation. Here is a screen shot of the test cases and the terminal when I run the tests.*
+![TestCases.jpg](images)
+![Terminal.jpg](images)
+
+
+
+
